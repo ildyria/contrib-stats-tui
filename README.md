@@ -1,4 +1,4 @@
-# contributors
+# Contributors
 
 > Because opening a browser to stare at GitHub's contribution graph is *so* 2015.
 
@@ -69,7 +69,7 @@ Grab the source and build it yourself:
 
 ```sh
 git clone https://github.com/ildyria/contrib-stats-tui
-cd resc-stats
+cd contrib-stats-tui
 make build        # drops a binary in ./bin/contributors
 ```
 
@@ -111,7 +111,7 @@ contributors --commit-window 500
 # Print a plain-text contributor list you can actually select and copy
 contributors email
 contributors email /path/to/repo
-contributors email resc.yaml   # or any .contributors.yaml config
+contributors email config.yaml   # or any .contributors.yaml config
 
 # Generate a starter config
 contributors config
